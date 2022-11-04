@@ -19,6 +19,7 @@ Route::get('/', function () {
 Route::get('/comida', function () {
     return view('comida');
 });
-Route::get('/ggg', function () {
+
+Route::get('/música', function () {
     return view('comida');
 });
